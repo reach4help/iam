@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@octokit/rest": "^17.2.0",
+    "@types/airtable": "^0.5.7",
     "@types/node-fetch": "^2.5.5",
+    "airtable": "^0.8.1",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.0"
   }
