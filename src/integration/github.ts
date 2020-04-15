@@ -104,9 +104,6 @@ export const commitGithubAccess = async(access: Access) => {
       });
     }
 
-    console.log(missingTeams);
-    console.log(unexpectedTeams);
-
     if (missingTeams.length > 0) {
       console.error('ERROR: MISSING TEAMS:' + missingTeams.join(', '));
     }
