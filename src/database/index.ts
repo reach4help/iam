@@ -37,7 +37,8 @@ export interface DatabaseData {
       /**
        * Only defined if they need to have access to 1 or more google groups
        */
-      emailAddress?: string;
+      // TODO: re-enable when privacy concerns checked
+      // emailAddress?: string;
       /**
        * Only defined if they have an official @reach4help.org account
        */
@@ -175,7 +176,8 @@ export const getData = async (): Promise<DatabaseData> => {
       data.people[person.id] = {
         slackHandle: person.fields["Slack Handle"],
         githubHandle: person.fields["GitHub Handle"] || undefined,
-        emailAddress: requiresEmail ? person.fields["Email Address"] : undefined,
+        // TODO: re-enable once privacy concerns addressed
+        // emailAddress: requiresEmail ? person.fields["Email Address"] : undefined,
         officialHandle: person.fields["Official Handle"] || undefined,
       }
     }
