@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "build": "tsc --build src/tsconfig.json",
-    "start": "node build"
+    "get-data": "node build get-data",
+    "calculate-access": "node build calculate-access"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
@@ -11,9 +12,13 @@
   "dependencies": {
     "@octokit/rest": "^17.2.0",
     "@types/airtable": "^0.5.7",
+    "@types/json-stable-stringify": "^1.0.32",
+    "@types/mkdirp": "^1.0.0",
     "@types/node-fetch": "^2.5.5",
     "airtable": "^0.8.1",
     "dotenv": "^8.2.0",
+    "json-stable-stringify": "^1.0.1",
+    "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.0"
   }
 }
