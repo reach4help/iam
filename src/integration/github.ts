@@ -34,12 +34,18 @@ export const commitGithubAccess = async(access: Access) => {
     for (const team of teams.data) {
       console.log(`Getting members for team: ${team.name}`);
       // TODO: support getting all pages
-      const membership = await octokit.teams.listMembersInOrg({
+      const members = (await octokit.teams.listMembersInOrg({
         org,
         team_slug: team.slug,
         per_page: 100
-      });
-      currentTeams.set(team.slug, new Set(membership.data.map(user => user.login)));
+      })).data.map(user => user.login.toLowerCase());
+      const pendingMembers = (await octokit.teams.listPendingInvitationsInOrg({
+        org,
+        team_slug: team.slug,
+        per_page: 100
+      })).data.map(user => user.login.toLowerCase());
+      const allTeamMembers = new Set([...members, ...pendingMembers]);
+      currentTeams.set(team.slug, allTeamMembers);
     }
 
     // Compare access to current teams to work out what changes to make
@@ -51,10 +57,14 @@ export const commitGithubAccess = async(access: Access) => {
     for (const teamSlug of Object.keys(orgAccess.teams)) {
       const currentTeam = currentTeams.get(teamSlug);
       if (currentTeam) {
-        const newTeam = new Set(orgAccess.teams[teamSlug]);
+        const newTeam = new Set(orgAccess.teams[teamSlug].map(username => username.toLowerCase()));
         for (const username of currentTeam) {
           if (!newTeam.has(username)) {
             revokeAccess.push({ teamSlug, username });
+
+            if (teamSlug === 'map-project') {
+              console.log("REVOKING", currentTeam, newTeam, username);
+            }
           }
         }
         for (const username of newTeam) {
