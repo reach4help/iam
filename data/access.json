@@ -1,0 +1,178 @@
+{
+  "github": {
+    "reach4help": {
+      "members": [
+        "beccaw334",
+        "niamhbarber",
+        "PatriciaMiranda",
+        "schowdhury8",
+        "isma-osy",
+        "meganzhao10",
+        "rabeleir",
+        "jfaria",
+        "DEDavenport2020",
+        "s0",
+        "micaelr95",
+        "rbgoncalves",
+        "Rafaelferreiratvd",
+        "luisFilipePT",
+        "btuerker",
+        "timothywlee",
+        "rim23ma",
+        "lauritowal",
+        "jpmarques66",
+        "ashwinkjoseph",
+        "edmkitty",
+        "webmonger",
+        "sabind",
+        "Tahfimul",
+        "JaneKas",
+        "cinthyaejh",
+        "r13serra11",
+        "dbenamy",
+        "mdmfernandes",
+        "TheRealAlexV",
+        "mdeous",
+        "brdjx",
+        "telmodias",
+        "puzzledbytheweb",
+        "wr46",
+        "anandvenkat4"
+      ],
+      "owners": [
+        "s0",
+        "puzzledbytheweb",
+        "schowdhury8",
+        "mdeous"
+      ],
+      "teams": {
+        "backend": [
+          "wr46",
+          "micaelr95",
+          "anandvenkat4",
+          "s0",
+          "sabind"
+        ],
+        "data-science": [
+          "Tahfimul"
+        ],
+        "everyone": [
+          "beccaw334",
+          "niamhbarber",
+          "PatriciaMiranda",
+          "schowdhury8",
+          "isma-osy",
+          "meganzhao10",
+          "rabeleir",
+          "jfaria",
+          "DEDavenport2020",
+          "s0",
+          "micaelr95",
+          "rbgoncalves",
+          "Rafaelferreiratvd",
+          "luisFilipePT",
+          "btuerker",
+          "timothywlee",
+          "rim23ma",
+          "lauritowal",
+          "jpmarques66",
+          "ashwinkjoseph",
+          "edmkitty",
+          "webmonger",
+          "sabind",
+          "Tahfimul",
+          "JaneKas",
+          "cinthyaejh",
+          "r13serra11",
+          "dbenamy",
+          "mdmfernandes",
+          "TheRealAlexV",
+          "mdeous",
+          "brdjx",
+          "telmodias",
+          "puzzledbytheweb",
+          "wr46",
+          "anandvenkat4"
+        ],
+        "frontend": [
+          "micaelr95",
+          "rbgoncalves",
+          "Rafaelferreiratvd",
+          "luisFilipePT",
+          "btuerker",
+          "timothywlee",
+          "rim23ma",
+          "lauritowal",
+          "jpmarques66",
+          "jpmarques66",
+          "ashwinkjoseph"
+        ],
+        "infra": [
+          "edmkitty",
+          "webmonger",
+          "sabind"
+        ],
+        "leadership": [
+          "jpmarques66",
+          "ashwinkjoseph",
+          "mdeous",
+          "PatriciaMiranda",
+          "r13serra11",
+          "s0",
+          "telmodias",
+          "cinthyaejh",
+          "sabind",
+          "meganzhao10",
+          "puzzledbytheweb",
+          "schowdhury8"
+        ],
+        "map-project": [
+          "btuerker",
+          "timothywlee",
+          "rim23ma",
+          "sabind",
+          "brdjx",
+          "s0",
+          "isma-osy"
+        ],
+        "marketing-pr-comms": [
+          "PatriciaMiranda"
+        ],
+        "product-operations": [
+          "isma-osy",
+          "meganzhao10",
+          "rabeleir",
+          "jfaria",
+          "DEDavenport2020",
+          "s0"
+        ],
+        "security": [
+          "mdmfernandes",
+          "TheRealAlexV",
+          "mdeous"
+        ],
+        "site": [
+          "beccaw334",
+          "niamhbarber",
+          "PatriciaMiranda",
+          "schowdhury8"
+        ],
+        "translations": [
+          "btuerker",
+          "cinthyaejh"
+        ],
+        "user-testing": [
+          "isma-osy",
+          "JaneKas",
+          "dbenamy"
+        ],
+        "ux-design": [
+          "JaneKas",
+          "beccaw334",
+          "niamhbarber",
+          "telmodias"
+        ]
+      }
+    }
+  }
+}
