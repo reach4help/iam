@@ -4,13 +4,14 @@
   "scripts": {
     "build": "tsc --build src/tsconfig.json",
     "get-data": "node build get-data",
-    "calculate-access": "node build calculate-access"
+    "calculate-access": "node build calculate-access",
+    "commit-access": "node build commit-access"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@octokit/rest": "^17.2.0",
+    "@octokit/rest": "^17.2.1",
     "@types/airtable": "^0.5.7",
     "@types/json-stable-stringify": "^1.0.32",
     "@types/mkdirp": "^1.0.0",

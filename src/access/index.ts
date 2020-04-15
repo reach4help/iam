@@ -3,9 +3,11 @@ import { DatabaseData } from '../database';
 const IAM_ADMIN_ROLE = 'recKtqyWh7bsEElpE';
 const EVERYONE_GITHUB_TEAM = 'everyone';
 
+const GITHUB_ORG = 'reach4help';
+
 export interface Access {
   github: {
-    reach4help: {
+    [id: string]: {
       owners: string[];
       members: string[];
       teams: {
@@ -55,7 +57,7 @@ export const calculateAccess = (data: DatabaseData): Access => {
 
   const access: Access = {
     github: {
-      reach4help: {
+      [GITHUB_ORG]: {
         owners: Array.from(githubOrgOwners),
         members: Array.from(githubOrgMembers),
         teams: githubOrgTeams

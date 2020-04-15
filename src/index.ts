@@ -8,6 +8,7 @@ import {config as enableDotenv} from 'dotenv';
 
 import { getData } from './database';
 import { calculateAccess } from './access';
+import { commitGithubAccess } from './integration/github';
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
@@ -35,6 +36,11 @@ const FILE_ACCESS = path.join(DIR_DATA, 'access.json');
       console.log(stringify(access, { space: '  ' }));
       await mkdirp(path.dirname(FILE_ACCESS));
       await writeFile(FILE_ACCESS, stringify(access, { space: '  ' }));
+      break;
+    }
+    case 'commit-access': {
+      const access = JSON.parse(await (await readFile(FILE_ACCESS)).toString());
+      await commitGithubAccess(access);
       break;
     }
     default: {
