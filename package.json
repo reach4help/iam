@@ -5,7 +5,7 @@
     "build": "tsc --build src/tsconfig.json",
     "get-data": "node build get-data",
     "calculate-access": "node build calculate-access",
-    "commit-access": "node build commit-access"
+    "apply-access": "node build apply-access"
   },
   "devDependencies": {
     "typescript": "^3.8.3"

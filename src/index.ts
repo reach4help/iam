@@ -38,7 +38,7 @@ const FILE_ACCESS = path.join(DIR_DATA, 'access.json');
       await writeFile(FILE_ACCESS, stringify(access, { space: '  ' }));
       break;
     }
-    case 'commit-access': {
+    case 'apply-access': {
       const access = JSON.parse(await (await readFile(FILE_ACCESS)).toString());
       await commitGithubAccess(access);
       break;
