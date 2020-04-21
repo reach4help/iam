@@ -34,6 +34,9 @@
       "githubHandle": "dbenamy",
       "slackHandle": "Dan Benamy"
     },
+    "rec6wrhU1XaHII1RE": {
+      "slackHandle": "Melissa Veras"
+    },
     "rec7dlizLWPGSqQUE": {
       "githubHandle": "JaneKas",
       "slackHandle": "Jane Kas"
@@ -99,6 +102,9 @@
     "recWhDL8pBuJXMKx8": {
       "githubHandle": "brdjx",
       "slackHandle": "Bradley Jackson"
+    },
+    "recX9GoaML8AxW8b0": {
+      "slackHandle": "Rashmi J"
     },
     "recXG8kxrP3r7tXXK": {
       "slackHandle": "SophiaLi"
@@ -172,6 +178,10 @@
     "recyGkLcuYwhYfuD7": {
       "githubHandle": "Tahfimul",
       "slackHandle": "Tahfimul"
+    },
+    "recyKPF2WMPPGaMaJ": {
+      "githubHandle": "ZiyangGao1028",
+      "slackHandle": "Ziyang Gao"
     }
   },
   "roles": {
@@ -247,7 +257,9 @@
         "recucpSPJasoZ2wJb",
         "rec3aNT5TGsRhXekz",
         "recazmoRXNtKCquWE",
-        "recq58LyLynvsMGxd"
+        "recq58LyLynvsMGxd",
+        "rec6wrhU1XaHII1RE",
+        "recyKPF2WMPPGaMaJ"
       ],
       "name": "Product & Operations",
       "slackChannel": "#team-product-and-ops"
@@ -285,6 +297,16 @@
       "name": "Infrastructure",
       "slackChannel": "#team-infrastructure"
     },
+    "recKg2XCv7YpmPBmL": {
+      "leads": [
+      ],
+      "members": [
+        "recX9GoaML8AxW8b0",
+        "recrHU4mfiQUW1u1H",
+        "recucpSPJasoZ2wJb"
+      ],
+      "name": "Outreach"
+    },
     "recR1wsG791012lsF": {
       "gitHubTeam": "data-science",
       "leads": [
@@ -316,7 +338,9 @@
         "rec0H0vpqZ1jKgJto"
       ],
       "members": [
-        "reciqU6pvENXStx3X"
+        "reciqU6pvENXStx3X",
+        "rec2OEFwICUd8sKoN",
+        "recrHU4mfiQUW1u1H"
       ],
       "name": "Translations"
     },
@@ -393,7 +417,8 @@
         "recPPMMsEC2jDPeaq",
         "recJIUTFF4A6EoiTA",
         "rec7y3O4i3GJhgLSv",
-        "recB39QSsRhF3YRAN"
+        "recB39QSsRhF3YRAN",
+        "recP7wRGji6kbKRpx"
       ],
       "name": "UX Design",
       "slackChannel": "#team-design-ui-ux"
@@ -407,7 +432,8 @@
         "recwx74q96UHQCQk8",
         "rec0ZzDMZT1EcIFp6",
         "recm7fqcW4SzVfydR",
-        "recLs9ByyOAzSubfr"
+        "recLs9ByyOAzSubfr",
+        "rectL7FLDZEAfO4zk"
       ],
       "name": "Back-End",
       "slackChannel": "#team-back-end"
