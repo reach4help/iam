@@ -61,6 +61,9 @@
       "githubHandle": "webmonger",
       "slackHandle": "Jon Carlos"
     },
+    "recFto80VGpAA9mYe": {
+      "slackHandle": "Yi Zhou"
+    },
     "recJIUTFF4A6EoiTA": {
       "slackHandle": "Ender Ricart"
     },
@@ -77,6 +80,7 @@
       "slackHandle": "Sam Lanning"
     },
     "recO9zvoHXoxLDllE": {
+      "githubHandle": "TMRolle",
       "slackHandle": "Theo Rolle"
     },
     "recP7wRGji6kbKRpx": {
@@ -124,6 +128,9 @@
     "recczXxvgdkODxWjv": {
       "githubHandle": "TheRealAlexV",
       "slackHandle": "AlexV"
+    },
+    "recfyi8NDxBRGBDaZ": {
+      "slackHandle": "Tianai Zhao"
     },
     "reciqU6pvENXStx3X": {
       "githubHandle": "btuerker",
@@ -250,7 +257,8 @@
       "gitHubTeam": "product-operations",
       "googleGroup": "product-and-ops",
       "leads": [
-        "recLs9ByyOAzSubfr"
+        "recrHU4mfiQUW1u1H",
+        "recFto80VGpAA9mYe"
       ],
       "members": [
         "recrHU4mfiQUW1u1H",
@@ -303,7 +311,9 @@
       "members": [
         "recX9GoaML8AxW8b0",
         "recrHU4mfiQUW1u1H",
-        "recucpSPJasoZ2wJb"
+        "recucpSPJasoZ2wJb",
+        "recfyi8NDxBRGBDaZ",
+        "recFto80VGpAA9mYe"
       ],
       "name": "Outreach"
     },
@@ -403,7 +413,9 @@
         "rec0H0vpqZ1jKgJto",
         "recTTCeBswRsBWBO6",
         "recO9zvoHXoxLDllE",
-        "recucpSPJasoZ2wJb"
+        "recucpSPJasoZ2wJb",
+        "recrHU4mfiQUW1u1H",
+        "recFto80VGpAA9mYe"
       ],
       "name": "Leadership"
     },
